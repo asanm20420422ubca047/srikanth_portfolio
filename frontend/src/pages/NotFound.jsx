@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export default function NotFound(){return <div className="container not-found"><span className="eyebrow">404 · ROUTE NOT FOUND</span><h1>That path doesn’t exist.</h1><p>Let’s get you back to the portfolio.</p><Link to="/" className="button primary">Back to home →</Link></div>}
